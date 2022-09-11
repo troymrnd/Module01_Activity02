@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Module01_Activity02"
+             x:Class="Module01_Activity02.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Welcome to my Activity2!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+       
+        <Button Text="TroyMiranda" BackgroundColor ="{x:Static local:SharedStatic.ButtonColor}"
+                TextColor="{x:Static local:SharedStatic.ButtonTextColor}" WidthRequest="100"/>
+        <Button Text="TroyJohn" BackgroundColor ="{x:Static local:SharedStatic.ButtonColor}"
+                TextColor="{x:Static local:SharedStatic.ButtonTextColor}" WidthRequest="100"/>
+        <Button Text="TroyNuguid" BackgroundColor ="{x:Static local:SharedStatic.ButtonColor}"
+                TextColor="{x:Static local:SharedStatic.ButtonTextColor}" WidthRequest="100"/>
+        <Button Text="TJ" BackgroundColor ="{x:Static local:SharedStatic.ButtonColor}"
+                TextColor="{x:Static local:SharedStatic.ButtonTextColor}" WidthRequest="100"/>
+    </StackLayout>
+    
+</ContentPage>
